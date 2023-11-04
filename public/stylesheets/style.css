@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #87382b;
+    color: white;
+    text-align: center;
+    padding: 20px; /* Increase the padding for better visibility */
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+}
+
+footer {
+    background-color: #87382b;
+    color: white;
+    text-align: center;
+    padding: 20px; /* Increase the padding for better visibility */
+}
+
+/* Improve navigation styling */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px; /* Slightly increase the margin for better spacing */
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold; /* Make the links bold for better visibility */
+}
+a {
+    background-color: #8a5656;
+    color: white;
+    border: none;
+    padding: 9px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover {
+    background-color: #6c2d2d;
+    color: white;
+}
+
+.zero-rating {
+    background-color: yellow; /* You can choose a different background color for rows with a rating other than 0 */
+}

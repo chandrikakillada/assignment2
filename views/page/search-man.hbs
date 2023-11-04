@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+             a {
+            background-color: #8a5656;
+            color: white;
+            border: none;
+            padding: 9px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        a:hover {
+            background-color: #6c2d2d;
+            color: white;
+        }
+        h1 {
+            font-size: 24px;
+           
+            margin: 20px 0;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto; /* Center align the form */
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+            text-align: left; /* Left align text */
+        }
+        input[type="text"] {
+            width: 100%; /* Take the full width of the container */
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 17px;
+        }
+        button[type="submit"] {
+            background-color: #e8d8d8;
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 17px;
+            cursor: pointer;
+        }
+        button[type="submit"]:hover {
+            background-color: #6c2d2d;
+            color: white;
+        }
+        a {
+            background-color: #8a5656;
+            color: white;
+            border: none;
+            padding: 9px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        a:hover {
+            background-color: #6c2d2d;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <form class="form-container" action="/search/Manufacturer" method="POST">
+        <label class="form-label" for="manufacturer">Enter manufacturer name:</label>
+
+
+        <input class="form-input" type="text" id="manufacturer" placeholder="Type text here" name="manufacturer" required>
+        <button class="form-button" type="submit">Search</button>
+    </form>
+</body>
+</html>

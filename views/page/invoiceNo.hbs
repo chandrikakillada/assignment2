@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            padding: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 10px;
+        }
+
+        .sale-details {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 400px;
+        }
+
+        /* Style the individual properties */
+        .property-label {
+            font-weight: bold;
+            color: #6e2703;;
+        }
+    </style>
+</head>
+<body>
+    <h1>{{ title }}</h1>
+    <div class="sale-details">
+        <p class="property-label">Invoice Number:</p>
+        <p>{{ matchingSale.InvoiceNo }}</p>
+        <p class="property-label">Manufacturer:</p>
+        <p>{{ matchingSale.Manufacturer }}</p>
+        <!-- Add more properties and labels as needed -->
+    </div>
+</body>
+</html>

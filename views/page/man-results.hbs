@@ -1,0 +1,14 @@
+<div class="container">
+    <h1>Manufacturer Search Results</h1>
+    <div class="result">
+        <h3>Matching car records:</h3>
+        {{#each carRecords}}
+            <div class="card">
+                <h2>{{Manufacturer}}</h2>
+                <p>InvoiceNo: {{InvoiceNo}}</p>
+                <p>Model: {{Model}}</p>
+                <!-- Add more fields here as needed -->
+            </div>
+        {{/each}}
+    </div>
+</div>
