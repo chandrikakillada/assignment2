@@ -116,7 +116,7 @@ app.post('/search/invoiceNo', urlencodedParser, (req, res) => {
         res.render('page/invoiceNo', { matchingSale, title: 'Car Sale Details' });
       } else {
         // If no match is found, render the 'error' view with an error message
-        res.render('error', {
+        res.render('partials/error', {
           title: 'Uh oh! Error :/',
           message: 'Invoice number not found',
         });
@@ -267,3 +267,12 @@ app.get('*', function(req, res) {
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
+
+
+/********************************************************************************** 
+ * ITE5315 – Assignment 2* I declare that this assignment is my own work in accordance with Humber Academic Policy.
+ * * No part of this assignment has been copied manually or electronically from any other source* (including web sites) or distributed to other students.
+ * ** Name: killada chandrika venu
+ *  Student ID: N01536668 
+ * Date: 3rd november
+ * **********************************************************************************/
